@@ -2,9 +2,14 @@
   "name": "ngx-multi-layer-bsmodal",
   "version": "1.0.0",
   "description": "Angular module provides Multi Layer Bootstrap Modal",
-  "main": "dist/index.js",
+  "main": "bundles/ngx-multi-layer-bsmodal.umd.js",
+  "module": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "transpile": "ngc",
+    "package": "rollup -c",
+    "minify": "uglifyjs dist/bundles/amazing.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/amazing.umd.min.js",
+    "build": "npm run transpile && npm run package && npm run minify"
   },
   "repository": {
     "type": "git",
@@ -21,5 +26,16 @@
   "bugs": {
     "url": "https://github.com/tomonari-t/ngx-multi-layer-bsmodal/issues"
   },
-  "homepage": "https://github.com/tomonari-t/ngx-multi-layer-bsmodal#readme"
+  "homepage": "https://github.com/tomonari-t/ngx-multi-layer-bsmodal#readme",
+  "devDependencies": {
+    "@angular/compiler": "^4.3.0",
+    "@angular/compiler-cli": "^4.3.0",
+    "rollup": "^0.45.2",
+    "typescript": "^2.4.1",
+    "uglify-js": "^3.0.25"
+  },
+  "peerDependencies": {
+    "@angular/core": "^4.3.0",
+    "rxjs": "^5.0.1"
+  }  
 }

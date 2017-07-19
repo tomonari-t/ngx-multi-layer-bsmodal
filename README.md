@@ -16,6 +16,7 @@ Coming soon
 
 ## Roadmap
 
+- Universal server rendering 
 - Available setting options
 
 ## License
