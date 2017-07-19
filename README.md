@@ -1,10 +1,23 @@
 # ngx-multi-layer-bsmodal
+
 Angular module provides Multi Layer Bootstrap Modal
 
-# Quick usage
+## Why this module?
 
-# install
+## Getting started
 
-# How to Use
+### install
 
-# example
+### How to Use
+
+## Changelog
+
+Coming soon
+
+## Roadmap
+
+- Available setting options
+
+## License
+
+MIT

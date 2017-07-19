@@ -1,0 +1,25 @@
+{
+  "name": "ngx-multi-layer-bsmodal",
+  "version": "1.0.0",
+  "description": "Angular module provides Multi Layer Bootstrap Modal",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomonari-t/ngx-multi-layer-bsmodal.git"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "bootstrap",
+    "modal"
+  ],
+  "author": "tomonari takahashi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomonari-t/ngx-multi-layer-bsmodal/issues"
+  },
+  "homepage": "https://github.com/tomonari-t/ngx-multi-layer-bsmodal#readme"
+}
